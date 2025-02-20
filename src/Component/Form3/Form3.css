@@ -1,0 +1,32 @@
+.boxes{
+    width: 380px;
+    /* height: 160px; */
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+}
+.box1{
+    width: 180px;
+    height: 160px;
+    border: 1px solid black;
+    border-radius: 10px;
+text-align: center;
+}
+.form3h1{
+    font-size: 20px;
+    font-weight: 600;
+}
+.form3h3{
+    font-size: 20px;
+    font-weight: 600;
+}
+.form3p{
+    font-size: 16px;
+    font-weight: 600;
+}
+@media (max-width:430px) {
+    .boxes{
+        display: flex;
+        flex-direction: column;
+    }
+}

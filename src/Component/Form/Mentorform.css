@@ -1,0 +1,54 @@
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px; /* Space between different fields */
+  }
+  
+  .form-group p {
+    margin-bottom: 2px; /* Removes gap between <p> and <input> */
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+  .form-group input {
+    margin-top: 5px; /* Ensures no extra space */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+.formh1{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+  .country-code {
+    cursor: pointer;
+    height: 40px;
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-right: 10px;
+  }
+  .inputform{
+  max-width: 300px;
+  min-width: 80%;
+  }
+ 
+ @media (min-width:992px) {
+    .mainform{
+padding-right: 60px;
+padding-left: 60px;
+    }
+    .mainform2{
+        padding-right: 40px;
+padding-left: 80px;
+    }
+ }
+
+
+ .poppins-regular {
+  font-family: "Poppins", serif;
+}
+.inter{
+  font-family: 'Inter', sans-serif;
+}

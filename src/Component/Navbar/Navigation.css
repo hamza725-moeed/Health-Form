@@ -1,0 +1,44 @@
+.first{
+    max-width: 1440px;
+    /* display: flex; */
+    justify-content: space-between;
+    height: 100px;
+  }
+  @media (max-width:992px) {
+    .first{
+      padding-right: 20px;
+      padding-left: 20px;
+    }
+    .navbar-nav {
+      background-color: #fff; /* ya aapka navbar ka background color */
+      padding: 20px;
+    }
+    .navbar-collapse {
+      margin-top: 20px;
+    }
+    .navbar-collapse {
+      max-height: 300px; /* ya aapka pasandeeda height */
+      overflow-y: auto;
+    }
+    
+  }
+  @media (min-width:992px) {
+    .first{
+      padding-right: 60px;
+      padding-left: 60px;
+    }
+  }
+  li{
+    font-size: 17px;
+    font-weight: 400px;
+    color: #090F4E;
+  }
+  .logoimg{
+    width: 123px;
+    height: 53px;
+  }
+
+
+  .poppins-regular {
+    font-family: "Poppins", serif;
+  }
