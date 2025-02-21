@@ -1,5 +1,5 @@
 .boxes{
-    width: 380px;
+    max-width:380px;
     /* height: 160px; */
     /* border: 1px solid black; */
     display: flex;
