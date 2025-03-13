@@ -30,3 +30,71 @@ text-align: center;
         flex-direction: column;
     }
 }
+
+.boxesmain{
+    display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 10px; 
+}
+@media (min-width:662px) {
+    .claculatorh1{
+        font-size: 34px;
+        font-weight: 500;
+    }
+    .claculatorh2{
+font-size: 20px;
+    }
+    .claculatorp1{
+        font-size: 18px;
+    }
+    .footerh1{
+        font-size: 24px;
+        font-weight: 500;
+    }
+}
+@media (max-width:661px) {
+    .claculatorh1{
+        font-size: 20px;
+        font-weight: 500;
+        padding-top:  20px;
+    }
+    .claculatorh2{
+font-size: 18px;
+    }
+    .claculatorp1{
+        font-size: 16px;
+    }
+    .calculator23{
+        margin-top: 20px;
+    }
+    .footerh1{
+        font-size: 20px;
+        font-weight: 500;
+    }
+}
+
+.boxtext {
+    padding: 10px;
+  }
+  
+  .price-box p {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 8px; 
+  }
+  
+  .price {
+    font-weight: 600;
+  }
+  @media (max-width: 662px) {
+    .foter3 {
+      flex-direction: column;
+      align-items: flex-start; 
+      gap: 10px;
+    }
+    .fbnd {
+      align-self: flex-end;
+        }
+  }

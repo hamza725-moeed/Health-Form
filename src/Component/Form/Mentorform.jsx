@@ -18,7 +18,7 @@ export default function Mentorform({ setCurrentForm }) {
       }}>
 
       
-        <div className="backarrow" style={{ width: "120px", height: "27px",  paddingTop: "53px", display: "flex", alignItems: "center", justifyContent: "center",
+        <div className="backarrow" style={{ width: "120px", height: "27px",  marginTop: "103px", display: "flex", alignItems: "center", justifyContent: "center",
           
          }}>
   <svg width="25" height="18" viewBox="0 0 10 10" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -53,7 +53,6 @@ export default function Mentorform({ setCurrentForm }) {
               maxWidth:'922px'
             }}
           >
-            {/* First Column */}
             <div
               className="col-lg-6 col-md-12 col-sm-12"
               style={{ flex: 1,}}
@@ -67,10 +66,9 @@ export default function Mentorform({ setCurrentForm }) {
 
               <div className="form-group">
       <p className="formp poppins-regular">Mobile No</p>
-      <div className="phone-input " >
-        {/* Country Code Dropdown */}
+      <div className="phone-input inputform" style={{flexDirection:'row', display:'flex'}}>
         <select
-          className="country-code px-1 poppins-regular"
+          className="country-code  poppins-regular"
           value={selectedCode}
           onChange={(e) => setSelectedCode(e.target.value)}
         >
@@ -80,20 +78,18 @@ export default function Mentorform({ setCurrentForm }) {
           <option value="+44">+44</option>
           <option value="+971">+971</option>
         </select>
-
-        {/* Mobile Number Input */}
         <input
-          type="text"
+          type="number"
           className="inputform1 poppins-regular"
           placeholder="Enter mobile number"
            style={{
-            minWidth:'222px', border:'1px solid black', height:'40px'
+            border:'1px solid black', 
            }}
         />
       </div>
     </div>
 
-              <div className="form-group">
+              <div className="form-group mb-0 pb-0">
                 <p className="formp poppins-regular">Company</p>
                 <input type="text" className="inputform poppins-regular"  placeholder="Company name"  style={{
                   border:'1px solid black', height:'40px'
@@ -101,9 +97,8 @@ export default function Mentorform({ setCurrentForm }) {
               </div>
             </div>
 
-            {/* Second Column */}
             <div
-              className="col-lg-6 col-md-12 col-sm-12"
+              className="col-lg-6 col-md-12 col-sm-12 pt-0 mt-0"
               style={{ flex: 1,}}
             >
               <div className="form-group">
@@ -122,7 +117,7 @@ export default function Mentorform({ setCurrentForm }) {
             </div>
           </div>
           <div
-            className="row mt-4"
+            className="row py-3"
             style={{
               display: "flex",
               justifyContent: "space-between",

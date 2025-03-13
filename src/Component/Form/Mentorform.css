@@ -1,39 +1,57 @@
 .form-group {
     display: flex;
     flex-direction: column;
-    margin-bottom: 12px; /* Space between different fields */
+    margin-bottom: 12px; 
   }
   
   .form-group p {
-    margin-bottom: 2px; /* Removes gap between <p> and <input> */
+    margin-bottom: 2px;
     font-size: 18px;
     font-weight: 400;
   }
   
   .form-group input {
-    margin-top: 5px; /* Ensures no extra space */
+    margin-top: 5px; 
     padding: 8px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    /* border: 1px solid #ccc;/ */
   }
-
-.formh1{
+  
+  .formh1{
     font-size: 36px;
     font-weight: 700;
-}
-
+  }
+  
   .country-code {
     cursor: pointer;
-    height: 40px;
+    height: 44px;
+    margin-top: 5px;
     border: 1px solid black;
-    border-radius: 4px;
-    margin-right: 10px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: white;
+    border-right:none; 
   }
   .inputform{
+    border-radius: 5px;
   max-width: 300px;
   min-width: 80%;
   }
- 
+  .inputform1{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  @media (max-width:349px) {
+    .inputform1{
+      max-width: 300px;
+      min-width: 79%;
+      }
+  }
+ @media (min-width:350px) {
+  .inputform1{
+    max-width: 300px;
+    min-width: 81%;
+  }
+ }
  @media (min-width:992px) {
     .mainform{
 padding-right: 60px;
@@ -44,8 +62,6 @@ padding-left: 60px;
 padding-left: 80px;
     }
  }
-
-
  .poppins-regular {
   font-family: "Poppins", serif;
 }
